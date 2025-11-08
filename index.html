@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Prevent browser close tab</title>
+        <link rel="stylesheet" href="/preventclose.css" >
+    </head>
+    <body>
+        <div id="desc">Just leave this tab open and your browser won't be closed automatically</div>
+        <p id="new-note"><strong>NOTE: Due to a change in the API of Chrome, you will need to click anywhere on this page once to make this script work. You can click <a href="javascript:void()">here</a> if you want to.</strong></p>
+        <p id="ask-for-support">
+            If you want to get rid of the donation hints, you can use <a href="/preventclosenodonations.htm">this page</a> instead.<br>
+            If you would like to support me with real money to cover the server costs, you can do so anonymously via Bitcoin:<br><br>
+            <img src="/bitcoin-qr.png" alt="Bitcoin Donation QR Code" /><br>
+            Address: <code>3MmLzG9Ym5v7YjDF9cDEoY8jVnEM1PUbje</code><br><br>
+            Alternatively, you can also suppport me via PayPal (this site will always stay free, don't worry):
+        </p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="X3MYDYKZ7JQ86">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+        </form>
+        <script src="/preventclose.js" ></script>
+    </body>
+</html>

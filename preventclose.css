@@ -1,0 +1,54 @@
+body {
+    padding-top: 50px;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+form {
+    display: block;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#desc {
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#new-note {
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#ask-for-support {
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+/*
+     FILE ARCHIVED ON 21:44:37 Jul 31, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:18:47 Nov 08, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.43
+  exclusion.robots: 0.014
+  exclusion.robots.policy: 0.007
+  esindex: 0.008
+  cdx.remote: 8.597
+  LoadShardBlock: 69.391 (3)
+  PetaboxLoader3.datanode: 73.365 (4)
+  load_resource: 490.097
+  PetaboxLoader3.resolve: 483.067
+*/
